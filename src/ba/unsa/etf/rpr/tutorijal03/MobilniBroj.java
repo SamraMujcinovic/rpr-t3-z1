@@ -1,6 +1,6 @@
 package ba.unsa.etf.rpr.tutorijal03;
 
-public class MobilniBroj {
+public class MobilniBroj extends TelefonskiBroj {
     String broj;
     int mobilnaMreza;
     public MobilniBroj(int mobilnaMreza,String broj){
