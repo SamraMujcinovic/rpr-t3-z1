@@ -16,6 +16,7 @@ public class Imenik {
         for (Map.Entry <String,TelefonskiBroj> skup:map.entrySet()) {
             if(skup.getValue().equals(broj)) return skup.getKey();
         }
+        return "";
     }
 
 }
